@@ -1,0 +1,375 @@
+/*###########################
+REGISTRATION
+###########################*/
+#sidebar {
+	font-size: 12px;
+	line-height: 1.2em;
+}
+
+#sidebar h1, #sidebar h2 {
+	margin-bottom: 30px;
+	
+	font-size: 18px;
+	font-family: 'Yanone Kaffeesatz', Verdana, Tahoma, Arial;
+	letter-spacing: 0.1em;
+	color: #1da89e;
+}
+
+#sidebar h3 {	
+	
+	font-size: 14px;
+}
+
+#sidebar .steps {
+	list-style: none;
+}
+
+#sidebar .steps li {
+	height: 58px;
+	
+	margin-bottom: 30px;
+	
+	padding: 4% 0px 0px 70px;
+}
+
+#sidebar .step1 {
+	background: url("/dev/images/step1_big.png");
+	background-repeat: no-repeat;
+}
+
+#sidebar .step2 {
+	background: url("/dev/images/step2_big.png");
+	background-repeat: no-repeat;
+}
+
+#sidebar .step3 {
+	background: url("/dev/images/step3_big.png");
+	background-repeat: no-repeat;
+}
+
+#sidebar .step4 {
+	background: url("/dev/images/step4_big.png");
+	background-repeat: no-repeat;
+}
+
+#sidebar a:link {
+	text-decoration: underline;
+	font-weight: normal;
+	color: #1da89e;
+}
+
+#sidebar a:visited {
+	text-decoration: underline;
+	font-weight: normal;
+	color: #1da89e;
+}
+
+#sidebar a:active {
+	text-decoration: underline;
+	font-weight: normal;
+	color: #1fcabe;
+}
+
+#sidebar a:hover {
+	text-decoration: underline;
+	font-weight: normal;
+	color: #1fcabe;
+}
+
+
+.validation {
+	height: 14px;
+	width: 14px;
+	
+	position: absolute;
+		right: -20px;
+		top: 10px;
+}
+
+.validation[name=postal], .validation[name=city]  {
+	display: inline-block;
+	
+	position: relative;
+		top: 2px;
+		right: -2px;
+}
+
+.validation[name=password2] {
+		top: 50px;
+}
+
+.validation-error {
+	background: url("/dev/images/icon_red.png");
+}
+
+.validation-success {
+	background: url("/dev/images/icon_green.png");
+}
+/*NYTT FRÅN RAZI*/
+#signup-wrap {
+	width: 900px;
+	margin: 0 auto;
+	margin-top: 20px;
+	
+	font-size: 14px;
+}
+
+ul#conf_steps {
+	list-style:none;
+	height:23px;
+	margin: 0 auto;
+	padding-top:40px;
+	padding-bottom:50px;
+	
+	text-align: center;
+}
+
+ul#conf_steps li  {
+	width: 23px;
+	height: 20px;
+	display: inline-block;
+	background:url('../images/steps.png');
+	text-align: center;
+	margin-right:10px;
+	margin-left:10px;
+	color:#fff;
+	font-weight:bold;
+	padding-top:3px;
+}
+ul#conf_steps li.marked {
+	background:url('../images/steps_marked.png');
+}
+
+.space {height:30px; clear:both;}
+	
+h1.signup {
+	text-align: center;
+	margin-bottom:20px;
+	padding-bottom:20px;
+}
+
+.left1{
+   position: relative;
+   float: left;
+   left: 0px;
+   width: 210px;
+   height: 100px;
+}
+.left2{
+   position: relative;
+   float: left;
+   left: 20px;
+   width: 210px;
+   height: 100px;
+}
+.left3{
+   position: relative;
+   float: left;
+   left: 40px;
+   width: 210px;
+   height: 100px;
+}
+.left4{
+   position: relative;
+   display: none; /*Smartweb, right?*/
+   float: left;
+   left: 60px;
+   width: 210px;
+   height: 100px;
+}
+
+
+#webshop-buttons {
+	width: 670px;
+	margin: 0 auto;
+}
+
+#module-links {
+	width: 500px;
+
+	margin: 0 auto;
+
+	text-align: left;
+}
+
+.install, .email{ height: 32px; width: 157px; text-indent: -9999px; cursor: pointer; border: 0px; }
+.fetch_now { height: 32px; width: 157px; text-indent: -9999px; cursor: pointer; border: 0px; }
+.change-and-search { height: 32px; width: 157px; text-indent: -9999px; cursor: pointer; border: 0px; }
+.magento, .oscommerce, .presta, .other{ height: 87px; width: 210px; text-indent: -9999px; cursor: pointer; border: 0px; }
+.prev, .next { height: 35px; width: 89px; text-indent: -9999px; cursor: pointer; border: 0px; }
+
+.fetch_now { background: url("../images/btn_fetch_now.png"); }
+.change-and-search.da  { background: url("../images/btn_change_search.png"); }
+.next.da  {float:right; background: url("../images/btn_next.png"); }
+.prev.da  {float:left; background: url("../images/btn_prev.png"); }
+
+
+.fetch_now.en { background: url("../images/btn_fetch_now_en.png"); }
+.change-and-search.en { background: url("../images/btn_change_search_en.png"); }
+.next.en {float:right; background: url("../images/btn_next_en.png"); }
+.prev.en {float:left; background: url("../images/btn_prev_en.png"); }
+
+.magento { background: url("../images/btn_magento.png"); }
+.oscommerce { background: url("../images/btn_os.png"); }
+.other { background: url("../images/btn_other.png"); }
+.presta { background: url("../images/btn_presta.png"); }
+
+.install { background: url("../images/btn_install.png"); }
+.install.en { background: url("../images/btn_install_en.png"); }
+.email{ background: url("../images/btn_email.png"); }
+.install:hover, .email:hover { background-position: -157px 0px; }
+.fetch_now:hover { background-position: -157px 0px; }
+.change-and-search:hover{ background-position: -157px 0px; }
+.magento:hover, .oscommerce:hover, .presta:hover, .other:hover { background-position: -210px 0px; }
+.prev:hover, .next:hover  { background-position: -89px 0px; }
+
+input[disabled=disabled].next, input[disabled=disabled].prev, .disabled, .disabled:hover, .disabled:focus  { background-position: -178px 0px; cursor: default; }
+
+.picked, .magento:hover, .oscommerce:hover, .presta:hover, .other:hover {
+	background-position: -420px 0px;
+	
+	-moz-border-radius:21px;
+-webkit-border-radius:21px;
+border-radius:21px;
+
+	
+	 -moz-box-shadow: 0px 0px 10px #db7800;
+    -webkit-box-shadow: 0px 0px 10px #db7800;
+    box-shadow: 0px 0px 10px #db7800;
+}
+
+#error_display {	
+	margin-bottom: 20px;
+	
+	padding: 20px;	
+	
+	text-align: center;
+	
+	background: #fffea6;
+	
+	border: 1px dashed #ffd375;
+}
+
+#magento_key {
+	width: 450px;
+
+	margin: 0 auto;	
+	
+	padding: 10px;	
+	
+	font-weight: bold;	
+	text-align: center;
+	
+	background: #fffea6;
+	
+	border: 1px dashed #ffd375;	
+}
+
+.clear {clear:both;}
+
+table#filter_sort {
+	font-size:13px;
+}
+
+#filter_sort tr {
+	margin-bottom:30px;
+}
+
+table#filter_sort th {
+	font-weight:bold;
+	text-align:center;
+	background:url('../images/th-bg.jpg');
+}
+
+table#filter_sort td {
+	padding:30px 30px 10px 30px;
+	vertical-align:center !important;
+	text-align:center;
+}
+
+table#importance td {
+	padding:0 10px 0 10px;
+	border:0;
+	width:40px;
+	}
+
+table#importance {
+	padding:0;
+	margin:0 auto;
+	}
+
+.right {text-align: right !important;}
+.left {text-align: left !important;}
+
+table#signup {
+	margin: 0 auto;
+	width:300px;
+	padding-top:30px;
+	}
+table#signup td{
+	padding:10px;
+	margin: 0;
+	}
+#loggedin-user-info  {
+	font-size:10px;
+}
+#loggedin-user-info img {
+	padding-right:10px;
+}
+
+#fields-wrapper {
+	width: 561px;
+}
+
+#settings-form .field {
+	height: 60px;
+	
+	position: relative;
+}
+
+#settings-form label {		
+	font-weight: bold;
+}
+
+#settings-form input[type=text] {
+	height: 35px;
+	width: 376px;
+	
+	float: right;
+
+	padding: 0px 20px;
+
+	background: #eeeded url("../images/bg_input.png");
+	
+	border: 0px;
+}
+
+#settings-form select {
+    height: 35px;
+    width: 416px;
+    
+    float: right;
+
+    margin: 0px 0px;
+
+    background: #eeeded url("../images/bg_input.png");
+    
+    border: 0px;
+}
+
+#settings-form input[name=postal] {
+	margin-left: 83px;
+	float: none;
+}
+
+#settings-form input[name=city], #settings-form label[for=city] {
+	margin-left: 20px;
+	float: none;
+}
+
+#settings-form input[name=postal], #settings-form input[name=city] {
+	height: 36px;
+	width: 77px;
+	
+	background: #eeeded url("../images/bg_input_small.png");
+}
